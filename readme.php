@@ -1,0 +1,6 @@
+"# EXERCISE-TC1L-14" 
+"#wasup guys "
+"#we finally did it"
+"#we made it"
+"#we made the repository"
+"#idk how but we made it"
