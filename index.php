@@ -66,12 +66,11 @@
 
         <div class="container facilities">
             <div class="row justify-content-between">
-              
+                <!-- First Column -->
                 <div class="col-md-3 text-center">
                     <img class="icon" src="education.jpg">
                     <h3 class="facility-title">Real-Time Academic Tracking</h3>
                     <p>Monitor, Support, and Celebrate Student Achievement. With BJ-Escholer, tracking academic progress is seamless. Our intuitive dashboards provide real-time insights into student performance, attendance, and behavior, enabling timely interventions and personalized support, thus driving student achievement to new heights.</p>
                 </div>
 
-              
-    
+                <!-- Second Column -->
