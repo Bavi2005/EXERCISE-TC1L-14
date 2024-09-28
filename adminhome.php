@@ -41,3 +41,49 @@ if (!isset($_SESSION['username'])) {
 
         .widget-link:hover {
             text-decoration: underline;
+        }
+
+        .content {
+        padding: 30px;
+        margin-left: 250px; /* add a margin to the left */
+        }
+
+    </style>
+</head>
+<body>
+
+    <?php include 'admin_sidebar.php'; ?>
+
+    <div class="content">
+        <h1>Welcome to the Admin Dashboard</h1>
+
+        <div class="dashboard-widgets">
+            <!-- Widget for Student Stats add student here -->
+            <div class="widget">
+                <h2>Student Overview</h2>
+                <p>Manage all registered students. Currently, there are <strong>X students</strong> in the system.</p>
+                <a href="manage_students.php" class="widget-link">Manage Students</a>
+            </div>
+
+            <!-- Widget for Event Management -->
+            <div class="widget">
+                <h2>Event Applications</h2>
+                <p>Review and approve event applications submitted by students. There are <strong>X pending applications</strong>.</p>
+                <a href="event_admin.php" class="widget-link">View Applications</a>
+            </div>
+
+            <!-- Widget for Motivational Message -->
+            <div class="widget">
+                <h2>Leadership Quote</h2>
+                <p><em>"Leadership is the capacity to translate vision into reality."</em> – Warren Bennis</p>
+            </div>
+        </div>
+
+        <div class="admin-summary">
+            <h2>Quick Actions</h2>
+            <p>Use the sidebar to navigate through different management sections such as student records, event approvals, and more.</p>
+        </div>
+    </div>
+
+</body>
+</html>
