@@ -74,3 +74,82 @@
                 </div>
 
                 <!-- Second Column -->
+                <div class="col-md-3 text-center">
+                    <img class="icon" src="imc.png">
+                    <h3 class="facility-title">Integrated Communication Tools</h3>
+                    <p>Strengthen Connections Within Your School Community. Communication is the cornerstone of a successful educational environment. BJ-Escholer integrated communication tools ensure clear, consistent, and instant dialogue between teachers, students, and parents, fostering a collaborative community focused on student growth.</p>
+                </div>
+
+                <!-- Third Column -->
+                <div class="col-md-3 text-center">
+                    <img class="icon" src="rra.png">
+                    <h3 class="facility-title">Robust Reporting and Analytics</h3>
+                    <p>Data-Driven Strategies for School Excellence. Harness the power of data with BJ-Escholer advanced reporting and analytics. Make informed decisions based on comprehensive data analysis, enhancing academic programs, operational efficiency, and overall school performance.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container facilities">
+            <div class="row justify-content-between">
+                <!-- Fourth Column -->
+                <div class="col-md-3 text-center">
+                    <img class="icon" src="fmt.png">
+                    <h3 class="facility-title">Financial Management and Transparency</h3>
+                    <p>Streamline Billing, Fees, and Financial Reporting. BJ-Escholer simplifies financial management for educational institutions. Our platform offers transparent tracking of billing, fees, and donations, coupled with detailed financial reports, ensuring fiscal responsibility and sustainability.</p>
+                </div>
+
+                <!-- Fifth Column -->
+                <div class="col-md-3 text-center">
+                    <img class="icon" src="cms.png">
+                    <h3 class="facility-title">Customizable Modules and Scalability</h3>
+                    <p>Tailor BJ-Escholer to Your School's Unique Needs. Every school is unique, and BJ-Escholer is designed to adapt. With customizable modules and scalable solutions, our system grows with your institution, ensuring you have the tools you need to succeed.</p>
+                </div>
+
+                <!-- Sixth Column -->
+                <div class="col-md-3 text-center">
+                    <img class="icon" src="fmr.jpg">
+                    <h3 class="facility-title">Future-Ready Features</h3>
+                    <p>Prepare your institution for the future with cutting-edge features and innovations that keep you ahead in the ever-evolving educational landscape.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <center>
+        <h1>Contact Us</h1>
+    </center>
+
+    <div class="admission_form">
+        <form action="data_check.php" method="POST">
+            <div class="form-group">
+                <label class="label_text">Name</label>
+                <input class="input_deg" type="text" name="name">
+            </div>
+
+            <div class="form-group">
+                <label class="label_text">Email</label>
+                <input class="input_deg" type="text" name="email">
+            </div>
+
+            <div class="form-group">
+                <label class="label_text">Phone</label>
+                <input class="input_deg" type="text" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label class="label_text">Message</label>
+                <textarea class="input_deg" name="message"></textarea>
+            </div>
+
+            <div class="form-group text-center">
+                <input type="submit" value="Submit" name="submit" class="btn btn-primary center-btn">
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
+
