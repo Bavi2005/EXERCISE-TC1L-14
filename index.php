@@ -74,7 +74,7 @@
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-md-3 text-center">
+               <div class="col-md-3 text-center">
                     <img class="icon" src="imc.png">
                     <h3 class="facility-title">Integrated Communication Tools</h3>
                     <p>Strengthen Connections Within Your School Community. Communication is the cornerstone of a successful educational environment. BJ-Escholer integrated communication tools ensure clear, consistent, and instant dialogue between teachers, students, and parents, fostering a collaborative community focused on student growth.</p>
